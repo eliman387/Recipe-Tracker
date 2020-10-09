@@ -11,6 +11,7 @@ This web application will display card style recipes on the homepage. Catagorize
 https://gomockingbird.com/projects/i4hknf2
 
 ## Component Hierarchy
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 https://files.slack.com/files-pri/T0351JZQ0-F01CPGSR71P/screen_shot_2020-10-09_at_12.23.22_pm.png
 ## API and Data Sample
 
