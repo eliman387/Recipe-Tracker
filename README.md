@@ -10,8 +10,7 @@ This web application will display card style recipes on the homepage. Catagorize
 
 
 ## Component Hierarchy
-https://user-images.githubusercontent.com/66207991/95591017-c5421c80-0a14-11eb-810f-3d30d7cbc710.png
-
+https://user-images.githubusercontent.com/66207991/95593394-a1cca100-0a17-11eb-8f9c-d6433987ffe7.png
 ## API and Data Sample
 
 ### API
@@ -80,5 +79,6 @@ This schedule will be used to keep track of your progress throughout the week an
 ### Weaknesses:
 CSS
 ### Opportunities:
-
+- Class Recordings
 ### Threats:
+- Procrastination
