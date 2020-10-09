@@ -11,7 +11,7 @@ This web application will display card style recipes on the homepage. Catagorize
 https://gomockingbird.com/projects/i4hknf2
 
 ## Component Hierarchy
-https://user-images.githubusercontent.com/66207991/95593394-a1cca100-0a17-11eb-8f9c-d6433987ffe7.png
+https://files.slack.com/files-pri/T0351JZQ0-F01CPGSR71P/screen_shot_2020-10-09_at_12.23.22_pm.png
 ## API and Data Sample
 
 ### API
@@ -65,12 +65,16 @@ This schedule will be used to keep track of your progress throughout the week an
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Finding Data to spreadsheet and using API | H | 4 hrs| __hrs | __hrs |
-| Creating Components (x4)| H | 3 hrs| __hrs | __hrs |
-| creating logic for REACT Components | H | 4 hrs| __hrs | __hrs |
-| Geeting Components to render properly | H | 3hrs| __hrs | __hrs |
+| Creating Header/Navbar Component | H | 3 hrs| __hrs | __hrs |
+| Creating Head/Carousel Component | H | 3 hrs| __hrs | __hrs |
+| Creating Category-Card Component | H | 3 hrs| __hrs | __hrs |
+| Creating Detailed-Recipe Component | H | 3 hrs| __hrs | __hrs |
+| Creating Form Component | H | 3 hrs| __hrs | __hrs |
+| Creating logic for REACT Components | H | 4 hrs| __hrs | __hrs |
+| Getting Components to render properly | H | 3hrs| __hrs | __hrs |
 | REACT Router | H | 4 hrs| __hrs | __hrs |
 | CSS + Breakpoints | H | 3hrs| __hrs | __hrs |
-| Total | H | 30 hrs| __hrs | __hrs |
+| Total | H | ~ 34 hrs| __hrs | __hrs |
 
 ## SWOT Analysis
 
