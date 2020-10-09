@@ -10,7 +10,7 @@ This web application will display card style recipes on the homepage. Catagorize
 
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+https://user-images.githubusercontent.com/66207991/95591017-c5421c80-0a14-11eb-810f-3d30d7cbc710.png
 
 ## API and Data Sample
 
