@@ -8,12 +8,16 @@ class DetailedPage extends Component {
     this.state = {
       recipes: [],
     }
-}
-  async cookIt() {
-  const foodURL = "https://api.airtable.com/v0/appRUxa3NaZG83Bqs/Recipes?api_key=keyRa5C3P5JGBT5JH";
-    const response = await axios.get(foodURL);
-    console.log(response.data.message);
   }
+  async cookIt() {
+    const foodURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/reviews`;
+    const response = await axios.get(foodURL, {
+      headers: {
+        Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
+      }
+    }
+    )}
+
   async componentDidMount() {
     await this.cookIt();
   }
