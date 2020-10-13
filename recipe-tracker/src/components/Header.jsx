@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import * as Navbar from 'react-bootstrap/Navbar';
 import logo from '../logo.png';
 
 class Header extends Component {
   render() {
     return (
       <div>
-        <header>
+         <header>
           <img src={logo}
             alt="logo"
             width="150"
@@ -15,16 +14,15 @@ class Header extends Component {
           <h1>Welcome to Recipe Finder Cookbook</h1>
         </header>
 
-          <div className="navbar">
-            <a>Home</a>
-            <a>Poultry</a>
-            <a>Beef</a>
-            <a>Fish</a>
-            <a>Pork</a>
-            <a>Dessert</a>
-          </div>
+          {/* <div className="navbar">
+            <a href="#home">Home</a>
+            <a href="#poultry">Poultry</a>
+            <a href="#beef">Beef</a>
+            <a href="#fish">Fish</a>
+            <a href="#pork">Pork</a>
+            <a href="#dessert">Dessert</a>
+           </div>         */}
       </div> 
-
     );
   }
 }
