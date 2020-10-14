@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -9,12 +10,25 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/poultry">Poultry</Nav.Link>
-            <Nav.Link href="/beef">Beef</Nav.Link>
-            <Nav.Link href="/fish">Fish</Nav.Link>
-            <Nav.Link href="/pork">Pork</Nav.Link>
-            <Nav.Link href="/dessert">Dessert</Nav.Link>
+            <Nav.Link>
+              <Link to="/">Home</Link>
+            </Nav.Link>
+
+            <Nav.Link>
+              <Link to="/recipes/poultry">Poultry</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/recipes/pork">Pork</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/recipes/fish">Fish</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/recipes/beef">Beef</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/recipes/dessert">Dessert</Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

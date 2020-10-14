@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 // import DetailedPage from './components/DetailedPage'
@@ -6,6 +7,8 @@ import "./App.css";
 import Header from "./components/Header";
 import Navigation from "./components/Navbar";
 import Homepage from "./components/Homepage";
+import CategoryPage from "./components/CategoryPage";
+import Form from "./components/Form";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -28,9 +31,15 @@ function App() {
     <div className="App">
       <Header />
       <Navigation />
-      {recipes.map((recipe) => (
-        <Homepage recipe={recipe} />
-      ))}
+      <Route exact path="/">
+        {recipes.map((recipe) => (
+          <Homepage recipe={recipe} />
+        ))}
+      </Route>
+      <Route path="/recipes/:type">
+        <CategoryPage recipes={recipes} />
+      </Route>
+      <Form />
     </div>
   );
 }
