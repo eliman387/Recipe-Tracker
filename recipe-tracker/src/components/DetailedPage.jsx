@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 // import { useParams } from "react-router-dom";
 // import Homepage from "./Homepage";
 
@@ -8,9 +9,9 @@ const DetailedPage = (props) => {
 
   return (
     <div className="main-container">
-      <div id="recipe-img"></div>
-      <div id="ingredients-list"></div>
-      <div id="steps"></div>
+      <div id="recipe-img">test</div>
+      <div id="ingredients-list">test</div>
+      <div id="steps">test</div>
     </div>
   );
 };

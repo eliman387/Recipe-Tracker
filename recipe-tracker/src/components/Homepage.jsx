@@ -12,7 +12,7 @@ function Homepage(props) {
             <Card.Title>{props.recipe.fields.title}</Card.Title>
             <Card.Text>Check out this delicious meal.</Card.Text>
 
-            <Button variant="light">
+            <Button variant="dark">
               <Link to={`/recipes/${props.recipe.id}`}>View the Dish!</Link>
             </Button>
           </Card.Body>

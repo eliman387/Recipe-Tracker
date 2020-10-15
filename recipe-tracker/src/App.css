@@ -16,8 +16,22 @@ header {
   background-color: gray;
   margin: 10px auto;
 }
-.recipe img {
+
+#recipe-img {
+  height: 40vh;
+  width: 20vw;
+  margin: 10px auto;
+  background-color: rgb(69, 69, 136);
+}
+#ingredients-list {
   height: 10vh;
   width: 20vw;
+  margin: 10px auto;
+  background-color: rgb(69, 69, 136);
+}
+#steps {
+  height: 10vh;
+  width: 20vw;
+  margin: 10px auto;
   background-color: rgb(69, 69, 136);
 }
