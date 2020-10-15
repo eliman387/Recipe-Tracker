@@ -2,15 +2,18 @@
 
 ## Recipe-Catalog
 
+https://unruffled-kepler-70bbe4.netlify.app
 
 ## Project Description
 
-This web application will display card style recipes on the homepage. Catagorized by protein choice, users will be able to traverse the website to find a recipe of the their choice, with detailed instructions and beautiful images of the meal. 
+This web application will display card style recipes on the homepage. Catagorized by protein choice, users will be able to traverse the website to find a recipe of the their choice, with detailed instructions and beautiful images of the meal.
+
 ## Wireframes
 
 https://gomockingbird.com/projects/i4hknf2
 
 ## Component Hierarchy
+
 ![Image of Component Hierarchy](https://user-images.githubusercontent.com/66207991/95625012-c9d2f900-0a45-11eb-9641-66d37d79865a.png)
 
 ## API and Data Sample
@@ -20,7 +23,8 @@ https://gomockingbird.com/projects/i4hknf2
 https://airtable.com/api
 
 ### Data Sample
-````
+
+```
           {
             "id": "rec8TuaTdCdff6KpV",
             "fields": {
@@ -33,58 +37,65 @@ https://airtable.com/api
             "createdTime": "2020-10-05T18:46:53.000Z"
           },
 
-````
+```
 
 ### MVP/PostMVP
- 
-#### MVP 
+
+#### MVP
+
 - The website will display a home page that greets the user and prompts them to select a recipe by catagory of protein (Poultry, Beef, Pork, Fish, ..etc).
-- The user will select a category, and a list of recipes will render the selected criteria. 
-- If the user clicks on the recipe item in the criteria list the user will be shown a  full rendered recipes info page, that will show a fully detailed view of the selected recipe. 
+- The user will select a category, and a list of recipes will render the selected criteria.
+- If the user clicks on the recipe item in the criteria list the user will be shown a full rendered recipes info page, that will show a fully detailed view of the selected recipe.
 - The user will be able to add their own recipes to the webpage.
 
-#### PostMVP  
+#### PostMVP
 
 - none (...at the moment.)
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.
 
-|  Day | Deliverable | Status
-|---|---| ---|
-|July 9-11| Work on adding over 50 recipes to AirTable / Work with & manipulate the API data | Incomplete
-|July 12| Creating Components (Homepage, Catagory-List, Recipe-Page ) | Incomplete
-|July 13| REACT logic and getting components to render (+ lil' CSS)| Incomplete
-|July 14| Working with REACT Router to link the different pages/components | Incomplete
-|July 15| CSS optimization / Breakpints | Incomplete
-|July 16| Presentations | Incomplete
+| Day       | Deliverable                                                                      | Status     |
+| --------- | -------------------------------------------------------------------------------- | ---------- |
+| July 9-11 | Work on adding over 50 recipes to AirTable / Work with & manipulate the API data | Incomplete |
+| July 12   | Creating Components (Homepage, Catagory-List, Recipe-Page )                      | Incomplete |
+| July 13   | REACT logic and getting components to render (+ lil' CSS)                        | Incomplete |
+| July 14   | Working with REACT Router to link the different pages/components                 | Incomplete |
+| July 15   | CSS optimization / Breakpints                                                    | Incomplete |
+| July 16   | Presentations                                                                    | Incomplete |
 
 ## Timeframes
 
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Finding Data to spreadsheet and using API | H | 4 hrs| __hrs | __hrs |
-| Creating Header/Navbar Component | H | 3 hrs| __hrs | __hrs |
-| Creating Head/Carousel Component | H | 3 hrs| __hrs | __hrs |
-| Creating Category-Card Component | H | 3 hrs| __hrs | __hrs |
-| Creating Detailed-Recipe Component | H | 3 hrs| __hrs | __hrs |
-| Creating Form Component | H | 3 hrs| __hrs | __hrs |
-| Creating logic for REACT Components | H | 4 hrs| __hrs | __hrs |
-| Getting Components to render properly | H | 3hrs| __hrs | __hrs |
-| REACT Router | H | 4 hrs| __hrs | __hrs |
-| CSS + Breakpoints | H | 3hrs| __hrs | __hrs |
-| Total | H | ~ 34 hrs| __hrs | __hrs |
+| Component                                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ----------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Finding Data to spreadsheet and using API |    H     |     4 hrs      |    \_\_hrs    |   \_\_hrs   |
+| Creating Header/Navbar Component          |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
+| Creating Head/Carousel Component          |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
+| Creating Category-Card Component          |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
+| Creating Detailed-Recipe Component        |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
+| Creating Form Component                   |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
+| Creating logic for REACT Components       |    H     |     4 hrs      |    \_\_hrs    |   \_\_hrs   |
+| Getting Components to render properly     |    H     |      3hrs      |    \_\_hrs    |   \_\_hrs   |
+| REACT Router                              |    H     |     4 hrs      |    \_\_hrs    |   \_\_hrs   |
+| CSS + Breakpoints                         |    H     |      3hrs      |    \_\_hrs    |   \_\_hrs   |
+| Total                                     |    H     |    ~ 34 hrs    |    \_\_hrs    |   \_\_hrs   |
 
 ## SWOT Analysis
 
 ### Strengths:
+
 - REACT Router
 - Class Components
+
 ### Weaknesses:
+
 CSS
+
 ### Opportunities:
+
 - Class Recordings
+
 ### Threats:
+
 - Procrastination
