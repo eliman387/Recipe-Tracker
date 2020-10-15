@@ -16,3 +16,8 @@ header {
   background-color: gray;
   margin: 10px auto;
 }
+.recipe img {
+  height: 10vh;
+  width: 20vw;
+  background-color: rgb(69, 69, 136);
+}

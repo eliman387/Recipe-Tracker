@@ -1,37 +1,18 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React from "react";
+// import { useParams } from "react-router-dom";
+// import Homepage from "./Homepage";
 
-class DetailedPage extends Component {
+const DetailedPage = (props) => {
+  // const params = useParams();
+  // const filterRecipes = props.recipes.filter((r) => r.fields.id === params.id);
 
-  constructor() {
-    super()
-    this.state = {
-      recipes: [],
-    }
-  }
-  async cookIt() {
-    const foodURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/Recipes`;
-    const response = await axios.get(foodURL, {
-      headers: {
-        Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
-      }
-    }
-      
-    );
-    console.log(response.data);
-    this.setState({ recipes: response.data.records });
-  }
-
-  async componentDidMount() {
-    await this.cookIt();
-  }
-  render() {
-    return (
-      <div>
-        
-      </div>
-    );
-  }
-}
+  return (
+    <div className="main-container">
+      <div id="recipe-img"></div>
+      <div id="ingredients-list"></div>
+      <div id="steps"></div>
+    </div>
+  );
+};
 
 export default DetailedPage;

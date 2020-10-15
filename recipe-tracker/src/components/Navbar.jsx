@@ -13,7 +13,6 @@ function Navigation() {
             <Nav.Link>
               <Link to="/">Home</Link>
             </Nav.Link>
-
             <Nav.Link>
               <Link to="/recipes/poultry">Poultry</Link>
             </Nav.Link>

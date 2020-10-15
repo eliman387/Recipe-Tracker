@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Button, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Homepage(props) {
   return (
@@ -10,8 +11,9 @@ function Homepage(props) {
           <Card.Body>
             <Card.Title>{props.recipe.fields.title}</Card.Title>
             <Card.Text>Check out this delicious meal.</Card.Text>
-            <Button variant="primary" href="/recipes/:type">
-              View the Dish!
+
+            <Button variant="light">
+              <Link to={`/recipes/${props.recipe.id}`}>View the Dish!</Link>
             </Button>
           </Card.Body>
         </Card>

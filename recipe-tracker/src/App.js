@@ -9,6 +9,7 @@ import Navigation from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import CategoryPage from "./components/CategoryPage";
 import Form from "./components/Form";
+import DetailedPage from "./components/DetailedPage";
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -41,6 +42,9 @@ function App() {
       </Route>
       <Route path="/form">
         <Form />
+      </Route>
+      <Route path="/recipes/:id">
+        <DetailedPage />
       </Route>
     </div>
   );
