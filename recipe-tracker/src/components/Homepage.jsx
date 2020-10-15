@@ -18,13 +18,6 @@ function Homepage(props) {
       </Row>
     </Container>
   );
-
-  {
-    /* <h2>{props.recipe.fields.title}</h2>
-      <img src={props.recipe.fields.image} alt="recipe-pic" />
-      <h5>{props.recipe.fields.ingredients}</h5>
-      <p>{props.recipe.fields.steps}</p> */
-  }
 }
 
 export default Homepage;
