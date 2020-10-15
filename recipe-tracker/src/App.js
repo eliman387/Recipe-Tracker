@@ -39,7 +39,9 @@ function App() {
       <Route path="/recipes/:type">
         <CategoryPage recipes={recipes} />
       </Route>
-      <Form />
+      <Route path="/form">
+        <Form />
+      </Route>
     </div>
   );
 }

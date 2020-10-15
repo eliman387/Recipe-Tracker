@@ -4,3 +4,15 @@
 header {
   background-color: slategrey;
 }
+#hp-grid {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+}
+
+#form-box {
+  height: 40vh;
+  width: 85%;
+  background-color: gray;
+  margin: 10px auto;
+}

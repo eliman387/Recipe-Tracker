@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "../App.css";
 
 function Form(props) {
   const [title, setTitle] = useState("");
@@ -35,7 +36,7 @@ function Form(props) {
     alert("Thank you for submitting your recipe to the site!");
   };
   return (
-    <div>
+    <div id="form-box">
       <form onSubmit={handleSubmit}>
         <label htmlFor="title">Title</label>
         <input
