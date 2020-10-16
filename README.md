@@ -58,11 +58,11 @@ This schedule will be used to keep track of your progress throughout the week an
 
 | Day       | Deliverable                                                                      | Status     |
 | --------- | -------------------------------------------------------------------------------- | ---------- |
-| July 9-11 | Work on adding over 50 recipes to AirTable / Work with & manipulate the API data | Incomplete |
-| July 12   | Creating Components (Homepage, Catagory-List, Recipe-Page )                      | Incomplete |
-| July 13   | REACT logic and getting components to render (+ lil' CSS)                        | Incomplete |
-| July 14   | Working with REACT Router to link the different pages/components                 | Incomplete |
-| July 15   | CSS optimization / Breakpints                                                    | Incomplete |
+| July 9-11 | Work on adding over 50 recipes to AirTable / Work with & manipulate the API data | Complete   |
+| July 12   | Creating Components (Homepage, Catagory-List, Recipe-Page )                      | Complete   |
+| July 13   | REACT logic and getting components to render (+ lil' CSS)                        | Complete   |
+| July 14   | Working with REACT Router to link the different pages/components                 | Complete   |
+| July 15   | CSS optimization / Breakpints                                                    | Complete   |
 | July 16   | Presentations                                                                    | Incomplete |
 
 ## Timeframes
