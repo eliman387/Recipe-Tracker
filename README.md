@@ -2,7 +2,7 @@
 
 ## Recipe-Catalog
 
-https://unruffled-kepler-70bbe4.netlify.app
+https://recipetracker.netlify.app
 
 ## Project Description
 
