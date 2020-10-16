@@ -69,17 +69,17 @@ This schedule will be used to keep track of your progress throughout the week an
 
 | Component                                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ----------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Finding Data to spreadsheet and using API |    H     |     4 hrs      |    \_\_hrs    |   \_\_hrs   |
-| Creating Header/Navbar Component          |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
-| Creating Head/Carousel Component          |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
-| Creating Category-Card Component          |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
-| Creating Detailed-Recipe Component        |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
-| Creating Form Component                   |    H     |     3 hrs      |    \_\_hrs    |   \_\_hrs   |
-| Creating logic for REACT Components       |    H     |     4 hrs      |    \_\_hrs    |   \_\_hrs   |
-| Getting Components to render properly     |    H     |      3hrs      |    \_\_hrs    |   \_\_hrs   |
-| REACT Router                              |    H     |     4 hrs      |    \_\_hrs    |   \_\_hrs   |
-| CSS + Breakpoints                         |    H     |      3hrs      |    \_\_hrs    |   \_\_hrs   |
-| Total                                     |    H     |    ~ 34 hrs    |    \_\_hrs    |   \_\_hrs   |
+| Finding Data to spreadsheet and using API |    H     |     4 hrs      |     6 hrs     |   +2 hrs    |
+| Creating Header/Navbar Component          |    H     |     3 hrs      |     3 hrs     |   +0 hrs    |
+| Creating Head/Carousel Component          |    H     |     3 hrs      |     5 hrs     |   +2 hrs    |
+| Creating Category-Card Component          |    H     |     3 hrs      |     4 hrs     |   +1 hrs    |
+| Creating Detailed-Recipe Component        |    H     |     3 hrs      |     3 hrs     |   +0 hrs    |
+| Creating Form Component                   |    H     |     3 hrs      |     3 hrs     |   +0 hrs    |
+| Creating logic for REACT Components       |    H     |     4 hrs      |     3 hrs     |   -1 hrs    |
+| Getting Components to render properly     |    H     |     3 hrs      |     5 hrs     |   +2 hrs    |
+| REACT Router                              |    H     |     4 hrs      |     2 hrs     |   -2 hrs    |
+| CSS + Breakpoints                         |    H     |      3hrs      |     5 hrs     |   +2 hrs    |
+| Total                                     |    H     |    ~ 34 hrs    |    39 hrs     |   +5 hrs    |
 
 ## SWOT Analysis
 
