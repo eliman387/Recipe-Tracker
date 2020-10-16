@@ -13,8 +13,8 @@ function Form(props) {
     e.preventDefault();
     const fields = {
       title,
-      ingredients: ingredients.split("\n"),
-      steps: steps.split("\n"),
+      ingredients,
+      steps, 
       image,
       type,
     };
@@ -38,23 +38,17 @@ function Form(props) {
   return (
     <div id="form-box">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="title">Title</label>
-        <input
+        <label htmlFor="title" className="form-inputs">Title: </label>
+        <input className="form-inputs"
           name="title"
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
-        {/* <label htmlFor="type">Type</label>
-        <input
-          name="type"
-          type="radio"
-          value={type}
-          onChange={(e) => setTitle(e.target.value)}
-        /> */}
-        <label htmlFor="type">Choose a Type:</label>
 
-        <select
+        <label htmlFor="type" className="form-inputs">Choose a Type: </label>
+
+        <select className="form-inputs"
           name="type"
           formid="type"
           value={type}
@@ -68,25 +62,26 @@ function Form(props) {
           <option value="pork">Pork</option>
           <option value="dessert">Dessert</option>
         </select>
-        <label htmlFor="ingredients">Ingredients</label>
-        <textarea
+        <label htmlFor="ingredients" className="form-inputs">Ingredients: </label>
+        <textarea className="form-inputs"
           name="ingredients"
           type="text"
           value={ingredients}
           onChange={(e) => setIngredients(e.target.value)}
         />
-        <label htmlFor="steps">Steps</label>
-        <textarea
+        <label htmlFor="steps" className="form-inputs">Steps: </label>
+        <textarea className="form-inputs"
           name="steps"
           type="text"
           value={steps}
           onChange={(e) => setSteps(e.target.value)}
         />
-        <label htmlFor="image">Input Image</label>
-        <input
+        <label htmlFor="image" className="form-inputs">Image: </label>
+        <input className="form-inputs"
           name="image"
           type="url"
           value={image}
+          placeholder="Image URL Address"
           onChange={(e) => setImage(e.target.value)}
         />
         <button type="submit">Save your recipe!</button>

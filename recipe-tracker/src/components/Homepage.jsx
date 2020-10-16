@@ -1,24 +1,24 @@
 import React from "react";
-import { Card, Button, Container, Row } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Homepage(props) {
   return (
-    <Container id="hp-gid">
-      <Row>
-        <Card style={{ width: "20rem" }}>
+
+          <Card
+          bg="primary"
+          text="light"
+          style={{ width: "20rem" }}>
           <Card.Img variant="top" src={props.recipe.fields.image} />
           <Card.Body>
             <Card.Title>{props.recipe.fields.title}</Card.Title>
-            <Card.Text>Check out this delicious meal.</Card.Text>
-
-            <Button variant="dark">
-              <Link to={`/recipes/${props.recipe.id}`}>View the Dish!</Link>
+            <Card.Text>{`Check out this delicious ${props.recipe.fields.type} meal.`}</Card.Text>
+            <Button variant="light">
+              <Link to={`/recipes/descrip/${props.recipe.id}`}>View the Dish!</Link>
             </Button>
           </Card.Body>
         </Card>
-      </Row>
-    </Container>
+    
   );
 }
 

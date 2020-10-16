@@ -7,7 +7,7 @@ class Header extends Component {
       <div>
         <header>
           <img src={logo} alt="logo" width="150" height="150" />
-          <h1>Welcome to Recipe Finder Cookbook</h1>
+          <h1>Recipe Finder Cookbook</h1>
         </header>
       </div>
     );

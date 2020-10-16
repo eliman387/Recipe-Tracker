@@ -3,35 +3,89 @@
 }
 header {
   background-color: slategrey;
+  margin-bottom: -8px;
 }
-#hp-grid {
+.carousel {
+  width: 75vw;
+  margin: 15px auto;
+}
+.d-block {
+  height: 60vh;
+  width: 75vw;
+}
+.hp-grid {
   margin: 0 auto;
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
+}
+.card {
+  display: inline-block;
+  margin: 10 auto;
 }
 
 #form-box {
-  height: 40vh;
+  height: fit-content;
   width: 85%;
   background-color: gray;
   margin: 10px auto;
 }
+.form-inputs {
+  display: block;
+  margin: 5px auto;
+}
+/* DetailedPage */
 
-#recipe-img {
-  height: 40vh;
-  width: 20vw;
-  margin: 10px auto;
-  background-color: rgb(69, 69, 136);
+.main_box {
+  min-height: 600px;
+  width: 90%;
+  background-color: rgb(210, 194, 174);
+  border: solid black 1px;
+  padding: 30px 0;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-#ingredients-list {
-  height: 10vh;
-  width: 20vw;
-  margin: 10px auto;
-  background-color: rgb(69, 69, 136);
+.main_box h1 {
+  text-decoration: underline;
 }
-#steps {
-  height: 10vh;
-  width: 20vw;
-  margin: 10px auto;
-  background-color: rgb(69, 69, 136);
+.spacer {
+  clear: both;
+  height: 40px;
+}
+
+#ingredient-box {
+  margin-left: 45px;
+  float: left;
+  width: 300px;
+}
+#direction-box {
+  margin-right: 45px;
+  float: right;
+  width: 500px;
+}
+
+#ingredient-list {
+  margin: 10px 0 10px 30px;
+  padding: 0;
+  list-style: circle;
+}
+#ingredient-list li {
+  color: #3e351f;
+  margin: 0 0 10px 0;
+  padding: 0 5px 0 0;
+}
+#direction-list {
+  margin: 10px 0 10px 30px;
+  padding: 0;
+  list-style: decimal;
+}
+#direction-list li {
+  color: #3e351f;
+  margin: 0 0 10px 0;
+  padding: 0 5px 0 0;
+}
+#recipe-image {
+  float: left;
+  margin: 3px 30px 5px 65px;
 }
